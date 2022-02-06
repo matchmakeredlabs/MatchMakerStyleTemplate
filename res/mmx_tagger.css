@@ -1,0 +1,13 @@
+.mmt_tagger table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.mmt_tagger th, .mmt_tagger td {
+    padding: 2px;
+}
+
+.mmt_col_lrmiLabel {
+    width: 7em;
+    font-weight: bold;
+}

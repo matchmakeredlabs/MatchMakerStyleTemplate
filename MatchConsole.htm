@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MatchMaker Palet</title>
+    <link rel="icon" type="image/png" href="res/MM-16.png" />
+    <link rel="stylesheet" type="text/css" href="res/MMEL.css" />
+    <link rel="stylesheet" type="text/css" href="res/mmx_console.css" />
+
+    <script src="res/mm-range.js"></script>
+
+</head>
+
+<body>
+
+    <div id="frame">
+
+        <!--#sxi-include src="/_includes/header.sxi"-->
+        <!-- Header Bar -->
+        <header>
+
+            <!-- logo -->
+            <div class="siteblock">
+                <h1><a href="/"><img src="res/MMEL_Logo.png" alt="Match Maker Education Labs Logo" width="150"></a>
+                </h1>
+                <!--<h2>Subtitle</h2>-->
+            </div>
+
+            <!-- main navigation -->
+            <div class="menu">
+                <ul>
+                    <li><a href="/page1.html">Menu One</a></li>
+                    <li><a href="/page2.html">Menu Two</a></li>
+                </ul>
+            </div>
+        </header>
+        <!--#sxi-endinclude-->
+
+        <main>
+            <form onsubmit="on_alg_submit(event)">
+                <div class="con-row"><span class="con-col1 con-heading">Match</span><span
+                        class="con-col2 con-heading">Weight</span><span class="con-col3 con-heading">Threshold</span>
+                </div>
+                <div class="con-row"><span class="con-col1">Central-Central</span>
+                    <mm-range name="alg-w-cc" class="con-col2" min="0" max="2" step="0.01" value="1"></mm-range>
+                    <mm-range name="alg-t-cc" class="con-col3" min="0" max="1" step="0.01" value="0"></mm-range>
+                </div>
+                <div class="con-row"><span class="con-col1">Central-Peripheral</span>
+                    <mm-range name="alg-w-cp" class="con-col2" min="0" max="2" step="0.01" value="1"></mm-range>
+                    <mm-range name="alg-t-cp" class="con-col3" min="0" max="1" step="0.01" value="0"></mm-range>
+                </div>
+                <div class="con-row"><span class="con-col1">Peripheral-Central</span>
+                    <mm-range name="alg-w-pc" class="con-col2" min="0" max="2" step="0.01" value="1"></mm-range>
+                    <mm-range name="alg-t-pc" class="con-col3" min="0" max="1" step="0.01" value="0"></mm-range>
+                </div>
+                <div class="con-row"><span class="con-col1">Peripheral-Peripheral</span>
+                    <mm-range name="alg-w-pp" class="con-col2" min="0" max="2" step="0.01" value="1"></mm-range>
+                    <mm-range name="alg-t-pp" class="con-col3" min="0" max="1" step="0.01" value="0"></mm-range>
+                </div>
+                <div class="con-row" style="margin-top: 0.75em;"><span class="con-col1 con-heading">Statement
+                        Type</span><span class="con-col2 con-heading">Weight</span><span
+                        class="con-col3 con-heading">Threshold</span></div>
+                <div class="con-row"><span class="con-col1">Knowledge (STFk)</span>
+                    <mm-range name="alg-w-k" class="con-col2" min="0" max="2" step="0.01" value="1"></mm-range>
+                    <mm-range name="alg-t-k" class="con-col3" min="0" max="1" step="0.01" value="0"></mm-range>
+                </div>
+                <div class="con-row"><span class="con-col1">Conceptual Understanding</span>
+                    <mm-range name="alg-w-c" class="con-col2" min="0" max="2" step="0.01" value="1"></mm-range>
+                    <mm-range name="alg-t-c" class="con-col3" min="0" max="1" step="0.01" value="0"></mm-range>
+                </div>
+                <div class="con-row"><span class="con-col1">Process</span>
+                    <mm-range name="alg-w-p" class="con-col2" min="0" max="2" step="0.01" value="1"></mm-range>
+                    <mm-range name="alg-t-p" class="con-col3" min="0" max="1" step="0.01" value="0"></mm-range>
+                </div>
+                <div class="con-row"><span class="con-col1">Pedagogy</span>
+                    <mm-range name="alg-w-d" class="con-col2" min="0" max="2" step="0.01" value="0"></mm-range>
+                    <mm-range name="alg-t-d" class="con-col3" min="0" max="1" step="0.01" value="0"></mm-range>
+                </div>
+                <div class="con-row" style="margin-top: 0.75em;"><span class="con-colspan"><button>Match</button></span>
+                </div>
+            </form>
+            <hr>
+            <h2>Matches from</h2>
+            <p>
+                <span id="matchKey">4605C-5305C-5323C-5625C-4911P-4936P-4941P-4955P-5805P-6466P</span>
+            </p>
+
+            <div id="matchResult">
+                <table>
+                    <tr>
+                        <td>4590C-5334C-6068C-6169C-4888P-5305P-6091P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>2233C-4590C-4747C-4752C-4942C-5029C-5222C-5637C-6389C-6443C-6544C-4630P-4749P-4895P-4936P-5109P-5524P-6716P-6859P-6908P
+                        </td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4752C-4936C-5029C-5087C-5087C-5637C-6544C-6934C-6950C-6750P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>5002C-6173C-6425C-4435P-4694P-4784P-4911P-5071P-5102P-5165P-5672P-6497P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4585C-4649C-4784C-4814C-4911C-4954C-5582C-5625C-5917C-6191C-6490C</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4747C-4955C-6386C-6386P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4936C-5109C-5625C-6386C-6734C</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4895C-4936C-5651C-5850C-6003C-6093C-6734C</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4942C-5239C-6264C-6466C-4955P-5323P-5710P-6200P-6443P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4605C-5305C-5323C-5625C-4911P-4936P-4941P-4955P-5805P-6466P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4814C-5150C-5625C-5652C-6321C-5001P-5003P-5077P-5208P-6190P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>5001C-5073C-6200C-4955P-5247P-5358P-6350P-6736P-13396P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4747C-4814C-5150C-5305C-5423C-5652C-6321C-4955P-5001P-5003P-5077P-5109P-5208P-5247P-5625P-5974P-6190P-6386P-6452P
+                        </td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>5305C-4745P-4846P-4941P-4942P-4955P-5208P-5247P-5625P-5805P</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4747C-5997C-4955P-5420P-5498P-5599P-5814P-6493P</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+
+        </main>
+
+        <!--#sxi-include src="/_includes/footer.sxi"-->
+        <footer>
+            <div style="max-width: 40em; margin: auto;">
+                <a href="https://matchmakeredlabs.net/tellmemore.html">Contact Us</a>
+                <!-- Copyright and License go here. -->
+            </div>
+
+            <!-- Google Analytics or other analytics go here. -->
+        </footer>
+        <!--#sxi-endinclude-->
+
+    </div>
+
+
+
+</body>
+
+</html>

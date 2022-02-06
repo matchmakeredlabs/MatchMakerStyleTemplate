@@ -1,0 +1,29 @@
+.mmc_competency {
+    padding: 0 0.5em;
+}
+
+.mmc_detail_label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.mmc_detail_abstract {
+    margin-bottom: 0.5em;
+}
+
+.mmc_competency table {
+    border: none;
+}
+
+.mmc_competency table th {
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 0.5em 0 0;
+}
+
+.mmc_competency table td {
+    border: none;
+    padding: 0;
+}
+

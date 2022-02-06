@@ -1,0 +1,30 @@
+.mmp_palet th, .mmp_palet td {
+    padding: 2px;
+}
+
+.mmp_searchBar {
+    margin-bottom: 0.5em;
+}
+
+.mmp_searchBar input {
+    height: 2em;
+    vertical-align: top;
+}
+
+.mmp_col_ctrl {
+    width: 2em;
+}
+
+.mmp_col_id {
+    width: 4em;
+}
+
+.mmp_col_type {
+    width: 3.5em;
+}
+
+.mmp_col_descLabel {
+    width: 6.5em;
+}
+
+

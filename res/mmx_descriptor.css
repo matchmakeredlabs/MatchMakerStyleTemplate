@@ -1,0 +1,37 @@
+
+.mmd_active .mmd_header {
+    background-color: green;
+}
+
+.mmd_col_descLabel {
+    width: 6.5em;
+}
+
+.mmd_descriptorHeader {
+    padding: 0.2em;
+}
+
+.mmd_descriptorLabel {
+    padding: 0.2em;
+    font-weight: bold;
+}
+
+.mmd_descriptorValue {
+    padding: 0.2em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.mmd_searchBar {
+    margin-bottom: 0.5em;
+}
+
+.mmd_searchBar input {
+    height: 2em;
+    vertical-align: top;
+}
+
+.mmd_statementSearch {
+    width: 100%;
+}
+

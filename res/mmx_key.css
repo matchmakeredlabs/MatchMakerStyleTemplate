@@ -1,0 +1,24 @@
+.mmk_key th, .mmk_key td {
+    padding: 2px;
+}
+
+.mmk_col_ctrl {
+    width: 2em;
+}
+
+.mmk_col_central {
+    width: auto;
+}
+
+.mmk_col_id {
+    width: 4em;
+}
+
+.mmk_col_type {
+    width: 3.5em;
+}
+
+.mmk_col_statement {
+    width: auto;
+}
+

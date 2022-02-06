@@ -1,0 +1,106 @@
+﻿:root {
+    --clr_mm_green: #5D9732; /* MatchMaker Green */
+}
+
+.mmx_col_lrmiLabel {
+    width: 8em;
+    font-weight: bold;
+}
+
+.mmx_label_matchindex {
+    font-weight: bold;
+}
+
+.mmx_table_statement {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.mmx_matched .mmx_descriptorHeader {
+    background-color: var(--clr_mm_green);
+}
+
+.mmx_col_ctrl {
+    width: 2em;
+}
+
+.mmx_col_id {
+    width: 4em;
+}
+
+.mmx_col_central {
+    width: 7em;
+}
+
+.mmx_col_type {
+    width: 3.5em;
+}
+
+.mmx_table_descriptor {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.mmx_col_descLabel {
+    width: 6.5em;
+}
+
+.mmx_descriptorHeader {
+    padding: 0.2em;
+}
+
+.mmx_descriptorLabel {
+    padding: 0.2em;
+    font-weight: bold;
+}
+
+.mmx_descriptorValue {
+    padding: 0.2em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.mmx_searchBar {
+    margin-bottom: 0.5em;
+}
+
+.mmx_searchBar input {
+    height: 2em;
+    vertical-align: top;
+}
+
+.mmx_statementSearch {
+    width: 100%;
+}
+
+.mmx_lrmiCompose {
+    max-width: 100%;
+}
+
+.mmx_keyCompose {
+    max-width: 100%;
+}
+
+.mmx_table_lrmi {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.mmx_col_lrmiLabel {
+    width: 6.5em;
+}
+
+.mmx_col_lrmiValue {
+    /*width: 21em;*/
+}
+
+.mmx_cell_lrmiLabel {
+    font-weight: bold;
+}
+
+.mmx_keyCompose td, .mmx_keyCompose th,
+.mmx_statementSearch th, .mmx_statementSearch td,
+.mmx_lrmiCompose td {
+    padding: 2px;
+}
+

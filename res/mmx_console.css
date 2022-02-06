@@ -1,0 +1,24 @@
+.con-row {
+    display: flex;
+}
+
+.con-heading {
+    font-weight: bold;
+}
+
+.con-col1 {
+    width: 14em;
+}
+
+.con-col2 {
+    width: 12em;
+}
+
+.con-col3 {
+    width: 12em;
+}
+
+.con-colspan {
+    width: 38em;
+    text-align: center;
+}
