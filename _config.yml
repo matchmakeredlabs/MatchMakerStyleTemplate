@@ -1,0 +1,12 @@
+timezone: America/Los_Angeles
+encoding: utf-8
+markdown: kramdown
+title: MatchMaker Style Template
+domain: mmstyle.dicax.org
+layout: default
+exclude:
+  - README.md
+  - docker-compose.yml
+defaults:
+sass:
+  style: expanded
