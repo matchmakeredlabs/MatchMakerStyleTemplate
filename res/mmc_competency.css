@@ -1,0 +1,98 @@
+.mmc_competency {
+    margin: 1em;
+    padding: 1em 1.5em 1.5em 1.5em;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    background-color: white;
+    border: 1px solid #949494;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.mmc_competency h2 {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.mmc_competency h3 {
+    margin: 1.2em 0 0.5em 0;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    border-radius: 4px;
+    background-color: #e7e7e5;
+    width: fit-content;
+    font-size: inherit;
+    color: inherit;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+}
+
+.mmc_competency dl>div {
+    display: flex;
+}
+
+.mmc_competency dt {
+    flex: 0 0 auto;
+    width: 5.5em;
+    color: inherit;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.mmc_competency dd {
+    flex: 1 1 0;
+    min-width: 40%; /* Default min-with for flex is the length of the content. This enables overflow-wrap */
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+
+.mmc_competency .statement {
+    font-size: 1em;    
+}
+
+.mmc_competency .details {
+    font-size: 1em;    
+}
+
+.mmc_Competency .details .key {
+
+}
+
+.mmc_Competency .details .value {
+
+}
+
+.mmc_Competency .links {
+
+}
+
+
+
+
+
+.mmc_detail_label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.mmc_detail_abstract {
+    margin-bottom: 0.5em;
+}
+
+.mmc_competency table {
+    border: none;
+}
+
+.mmc_competency table th {
+    border: none;
+    text-align: left;
+    font-weight: bold;
+    padding: 0 0.5em 0 0;
+}
+
+.mmc_competency table td {
+    border: none;
+    padding: 0;
+}
+
