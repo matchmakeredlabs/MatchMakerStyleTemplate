@@ -1,4 +1,7 @@
 ---
 # Front matter to cause this to be processed by Jekyll
 ---
-@import "core.scss"
+
+@import "core";
+@import "competency";
+@import "columns";

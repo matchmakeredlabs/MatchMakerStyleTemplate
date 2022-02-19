@@ -1,0 +1,51 @@
+@mixin mmx_card {
+    margin: 1em;
+    padding: 1em 1.5em 1.5em 1.5em;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    background-color: white;
+    border: 1px solid #949494;
+    border-radius: 8px;
+    box-sizing: border-box;
+    
+    h2 {
+        margin: 0;
+        color: black;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        margin: 1.2em 0 0.5em 0;
+        padding: 0 0.5em;
+        line-height: 1.5em;
+        border-radius: 4px;
+        background-color: #e7e7e5;
+        width: fit-content;
+        font-size: inherit;
+        color: inherit;
+        font-weight: 200;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    dl>div {
+        display: flex;
+        margin: 0.25em 0;
+    }
+    
+    dt {
+        flex: 0 0 auto;
+        width: 5.5em;
+        color: inherit;
+        font-weight: bold;
+        vertical-align: top;
+        overflow-wrap: break-word;
+    }
+    
+    dd {
+        flex: 1 1 0;
+        margin: 0;
+        min-width: 0; /* Default min-with for flex is the length of the content. This enables overflow-wrap */
+        vertical-align: top;
+        overflow-wrap: break-word;
+    }
+}

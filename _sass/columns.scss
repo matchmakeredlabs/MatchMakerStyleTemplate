@@ -1,0 +1,10 @@
+.mm_columns {
+    display: flex;
+    height: calc(100vh - 3rem);
+}
+
+.mm_col {
+    flex: 1 1 0;
+    height: 100%;
+    overflow-y: auto;
+}
