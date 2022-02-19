@@ -6,7 +6,12 @@ domain: mmstyle.dicax.org
 layout: default
 exclude:
   - README.md
+  - LICENSE
   - docker-compose.yml
+  - .gitignore
+  - .sass-cache/
+  - .jekyll-cache/
+  - .vs/
 defaults:
 sass:
   style: expanded
