@@ -28,6 +28,10 @@
         margin-left: 1.5em;
     }
 
+    li {
+        width: fit-content;
+    }
+
     .selected {
         background-color: rgb(175, 201, 228);
     }
@@ -70,6 +74,10 @@
     
     button.mmb_leaf.mmb_desc {
         background-image: var(--svg-square-desc);
+    }
+
+    .mmb_selected {
+        background-color: lighten($mm-blue, 50%);
     }
 }
 
