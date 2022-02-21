@@ -184,14 +184,16 @@ p {
 
 ul {
     list-style: disc;
-    margin-left: 3em;
+    margin-inline-start: 1.5em;
     margin-bottom: 1em;
+    padding: 0;
 }
 
 ol {
     list-style: decimal;
-    margin-left: 3em;
+    margin-inline-start: 1.5em;
     margin-bottom: 1em;
+    padding: 0;
 }
 
 em, i {
