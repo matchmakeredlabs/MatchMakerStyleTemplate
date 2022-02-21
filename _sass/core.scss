@@ -1,3 +1,5 @@
+@import "globals.scss";
+
 // ==== Declare Constants ====
 :root {
     --clr_accent1: #004D85; // Directory, Subtitle, Heading 1 (blue)
@@ -90,6 +92,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, $mm-red 0 25%, $mm-green 25% 50%, $mm-blue 50% 75%, $mm-orange 75% 100%) 1;
 }
 
 // siteblock should be a DIV that frames up the sitetitle and sitesubtitle
